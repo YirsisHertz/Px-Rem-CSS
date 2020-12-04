@@ -1,5 +1,10 @@
 #-*- coding:utf-8 -*-
 
+# == Code make by Yirsis Hertz. == 
+# == GitHub YirsisHertz. == 
+# == YouTube HzCode and YirsisHertz. == 
+# == Udemy Yirsis Serrano. ==
+
 from tkinter import *
 
 def main(px):

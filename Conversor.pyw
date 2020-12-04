@@ -1,3 +1,5 @@
+#-*- coding:utf-8 -*-
+
 from tkinter import *
 
 def main(px):
@@ -19,18 +21,34 @@ def ui():
     lb = Label(root, bg="#333").pack()
 
     label1 = Label(root, text="Valor PX: ")
-    label1.config(justify=CENTER, font="Montserrat-bold 15", bg="#333", fg="snow" )
+    label1.config(
+        justify=CENTER,
+        font="Montserrat-bold 15",
+        bg="#333",
+        fg="snow"
+        )
     label1.pack()
 
     text_px = Entry(root)
-    text_px.config( justify=CENTER, font="Montserrat 15" )
+    text_px.config(
+        justify=CENTER,
+        font="Montserrat 15"
+        )
     text_px.pack()
 
     label2 = Label(root, text="Valor REM: ")
-    label2.config(justify=CENTER, font="Montserrat-bold 15", bg="#333", fg="snow" )
+    label2.config(
+        justify=CENTER,
+        font="Montserrat-bold 15",
+        bg="#333",
+        fg="snow"
+        )
     label2.pack()
     text_rem = Entry(root)
-    text_rem.config(justify=CENTER, font="Montserrat 15" )
+    text_rem.config(
+        justify=CENTER,
+        font="Montserrat 15"
+        )
     text_rem.pack()
 
 
